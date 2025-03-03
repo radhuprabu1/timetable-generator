@@ -31,3 +31,13 @@
 application.properties
 application.yml
 .env
+
+# Ignore IDE and Build System Files
+.settings/
+.classpath
+.factorypath
+.project
+
+# Ignore Build and Output Folders
+target/
+output.json
