@@ -1,0 +1,52 @@
+{
+  "schoolConfiguration": {
+    "totalPeriodsPerDay": 8
+  },
+  "teachers": [
+    {
+      "teacherName": "Radhu",
+      "subjects": ["Mathematics", "Physics"],
+      "classTeacherOf": {
+        "class": "10",
+        "section": "A",
+        "subject": "Mathematics"
+      },
+      "minPeriodsPerDay": 2,
+      "periodsPerWeek": 15,
+      "forbiddenPeriods": {
+        "Monday": [3],
+        "Wednesday": [2, 6, 7, 8]
+      },
+      "availOnly": {
+        "Tuesday": [1],
+        "Friday": [2, 3]
+      },
+      "classes": [
+        {
+          "class": "10",
+          "section": "A",
+          "subject": "Mathematics"
+        }
+      ],
+      "maxConsecutivePeriods": 2
+    }
+  ],
+  "subjectDetails": {
+    "Mathematics": [
+      {
+        "class": "10",
+        "section": "A",
+        "minPeriodsPerDay": 1,
+        "periodsPerWeek": 5
+      }
+    ],
+	"Physics": [
+	      {
+	        "class": "10",
+	        "section": "B",
+	        "minPeriodsPerDay": 1,
+	        "periodsPerWeek": 5
+	      }
+	    ]
+  }
+}

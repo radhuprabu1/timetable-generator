@@ -1,0 +1,66 @@
+{
+  "schoolConfiguration": {
+    "totalPeriodsPerDay": 6 
+  },
+  "teachers": [
+    {
+      "teacherName": "Radhu",
+      "subjects": ["Math", "Science"],
+      "classTeacherOf": {
+        "class": "10",
+        "section": "A",
+        "subject": "Math"
+      },
+      "minPeriodsPerDay": 2,
+      "periodsPerWeek": 15,
+      "forbiddenPeriods": {
+        "Monday": [3],
+        "Wednesday": [1, 2]
+      },
+      "availOnly": {}, 
+      "classes": [
+        { "classGrade": "10", "section": "A", "subject": "Math" },
+        { "classGrade": "10", "section": "B", "subject": "Science" }
+      ],
+      "maxConsecutivePeriods": 2
+    },
+    {
+      "teacherName": "Teacher2",
+      "subjects": ["English", "History"],
+      "classTeacherOf": {
+        "class": "11",
+        "section": "A",
+        "subject": "English"
+      },
+      "minPeriodsPerDay": 1,
+      "periodsPerWeek": 12,
+      "forbiddenPeriods": {
+        "Friday": [1, 2, 3]
+      },
+      "availOnly": {},
+      "classes": [
+        { "classGrade": "11", "section": "A", "subject": "English" },
+        { "classGrade": "11", "section": "B", "subject": "History" }
+      ],
+      "maxConsecutivePeriods": 1
+    }
+  ],
+  "subjectDetails": {
+    "Math": [
+      { "class": "10", "section": "A", "minPeriodsPerDay": 1, "periodsPerWeek": 5 },
+      { "class": "10", "section": "B", "minPeriodsPerDay": 1, "periodsPerWeek": 5 }
+    ],
+    "Science": [
+      { "class": "10", "section": "A", "minPeriodsPerDay": 1, "periodsPerWeek": 4 },
+      { "class": "10", "section": "B", "minPeriodsPerDay": 1, "periodsPerWeek": 4 }
+    ],
+    "English": [
+      { "class": "11", "section": "A", "minPeriodsPerDay": 1, "periodsPerWeek": 4 },
+      { "class": "11", "section": "B", "minPeriodsPerDay": 1, "periodsPerWeek": 4 }
+    ],
+    "History": [
+      { "class": "11", "section": "A", "minPeriodsPerDay": 1, "periodsPerWeek": 3 },
+      { "class": "11", "section": "B", "minPeriodsPerDay": 1, "periodsPerWeek": 3 }
+    ]
+  }
+}

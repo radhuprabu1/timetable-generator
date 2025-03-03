@@ -1,0 +1,59 @@
+{
+  "timetableSummary" : {
+    "subjectsUsage" : [ {
+      "subjectName" : "Mathematics",
+      "classesTaughtIn" : [ {
+        "classGrade" : "10",
+        "section" : "A",
+        "totalPeriods" : 5
+      }, {
+        "classGrade" : "10",
+        "section" : "B",
+        "totalPeriods" : 5
+      } ]
+    }, {
+      "subjectName" : "Physics",
+      "classesTaughtIn" : [ {
+        "classGrade" : "11",
+        "section" : "A",
+        "totalPeriods" : 3
+      } ]
+    } ]
+  },
+  "timetables" : [ {
+    "teacherName" : "Naga",
+    "schedule" : {
+      "Tuesday" : [ {
+        "period" : 1,
+        "classInfo" : {
+          "section" : "C",
+          "subject" : "Mathematics",
+          "class" : "9"
+        }
+      }, {
+        "period" : 3,
+        "classInfo" : {
+          "section" : "C",
+          "subject" : "Mathematics",
+          "class" : "9"
+        }
+      } ],
+      "Monday" : [ {
+        "period" : 1,
+        "classInfo" : {
+          "section" : "A",
+          "subject" : "Mathematics",
+          "class" : "10"
+        }
+      }, {
+        "period" : 2,
+        "classInfo" : {
+          "section" : "A",
+          "subject" : "Mathematics",
+          "class" : "10"
+        }
+      } ]
+    },
+    "totalPeriodsPerWeek" : 15
+  } ]
+}

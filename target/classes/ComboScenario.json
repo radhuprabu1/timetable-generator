@@ -1,0 +1,116 @@
+{
+  "schoolConfiguration": {
+    "totalPeriodsPerDay": 8
+  },
+  "teachers": [
+    {
+      "teacherName": "Radhu",
+      "subjects": ["Mathematics"],
+      "classes": [
+        {"class": "10","section": "A","subject": "Mathematics"},
+		{"class": "10","section": "B","subject": "Mathematics"},
+		{"class": "10","section": "C","subject": "Mathematics"},
+		{"class": "10","section": "D","subject": "Mathematics"}
+      ],
+      "forbiddenPeriods": {
+        "Monday": [3, 5],
+        "Wednesday": [2, 4, 6]
+      },
+      "availOnly": {},
+      "maxConsecutivePeriods": 2,
+      "minPeriodsPerDay": 1,
+      "periodsPerWeek": 5,
+      "classTeacherOf": {
+        "class": "10",
+        "section": "A",
+        "subject": "Mathematics"
+      }
+    },
+	{
+	      "teacherName": "Rakesh",
+	      "subjects": ["History"],
+	      "classes": [
+	        {"class": "10","section": "A","subject": "History"},
+			{"class": "10","section": "B","subject": "History"},
+			{"class": "10","section": "C","subject": "History"},
+			{"class": "10","section": "D","subject": "History"},
+			{"class": "10", "section": "A", "subject":"Geography"},
+			{"class": "10", "section": "B", "subject":"Geography"},
+			{"class": "10", "section": "C", "subject":"Geography"},
+			{"class": "10", "section": "D", "subject":"Geography"}
+	      ],
+	      "forbiddenPeriods": {
+	        "Monday": [3, 5],
+	        "Wednesday": [2, 4, 6]
+	      },
+	      "availOnly": {},
+	      "maxConsecutivePeriods": 2,
+	      "minPeriodsPerDay": 1,
+	      "periodsPerWeek": 5,
+	      "classTeacherOf": {
+	        "class": "10",
+	        "section": "B",
+	        "subject": "History"
+	      }
+	    },
+    {
+      "teacherName": "Ravi",
+      "subjects": ["Physics", "Science"],
+      "classes": [
+		{"class": "10","section": "A","subject": "Science"},
+		{"class": "10","section": "B","subject": "Science"},
+		{"class": "10","section": "C","subject": "Science"},
+		{"class": "10","section": "D","subject": "Science"},
+        {"class": "11","section": "A","subject": "Physics"},
+		{"class": "11","section": "B","subject": "Physics"},
+		{"class": "11","section": "C","subject": "Physics"},
+		{"class": "11","section": "D","subject": "Physics"}
+      ],
+      "forbiddenPeriods": {
+        "Tuesday": [1, 4],
+        "Thursday": [2, 3]
+      },
+      "availOnly": {},
+      "maxConsecutivePeriods": 3,
+      "minPeriodsPerDay": 1,
+      "periodsPerWeek": 6,
+      "classTeacherOf": {
+        "class": "11",
+        "section": "B",
+        "subject": "Physics"
+      }
+    }
+  ],
+  "subjectDetails": {
+    "Mathematics": [
+     	{"class": "10","section": "A","minPeriodsPerDay": 1,"periodsPerWeek": 7},
+	 	{"class": "10","section": "B","minPeriodsPerDay": 1,"periodsPerWeek": 7},
+	 	{"class": "10","section": "C","minPeriodsPerDay": 1,"periodsPerWeek": 7},
+	 	{"class": "10","section": "D","minPeriodsPerDay": 1,"periodsPerWeek": 7}
+    ],
+    "Physics": [
+     	{"class": "11","section": "A","minPeriodsPerDay": 1,"periodsPerWeek": 6},
+	 	{"class": "11","section": "B","minPeriodsPerDay": 1,"periodsPerWeek": 6},
+	 	{"class": "11","section": "C","minPeriodsPerDay": 1,"periodsPerWeek": 6},
+	 	{"class": "11","section": "D","minPeriodsPerDay": 1,"periodsPerWeek": 6}
+    ],
+	"History": [
+		{"class": "10","section": "A","minPeriodsPerDay": 1,"periodsPerWeek": 5},
+		{"class": "10","section": "B","minPeriodsPerDay": 1,"periodsPerWeek": 5},
+		{"class": "10","section": "C","minPeriodsPerDay": 1,"periodsPerWeek": 5},
+		{"class": "10","section": "D","minPeriodsPerDay": 1,"periodsPerWeek": 5}
+	],
+	"Geography": [
+		{"class": "10","section": "A","minPeriodsPerDay": 1,"periodsPerWeek": 5},
+		{"class": "10","section": "B","minPeriodsPerDay": 1,"periodsPerWeek": 5},
+		{"class": "10","section": "C","minPeriodsPerDay": 1,"periodsPerWeek": 5},
+		{"class": "10","section": "D","minPeriodsPerDay": 1,"periodsPerWeek": 5}
+	],
+	"Science": [
+		{"class": "10","section": "A","minPeriodsPerDay": 1,"periodsPerWeek": 6},
+		{"class": "10","section": "B","minPeriodsPerDay": 1,"periodsPerWeek": 6},
+		{"class": "10","section": "C","minPeriodsPerDay": 1,"periodsPerWeek": 6},
+		{"class": "10","section": "D","minPeriodsPerDay": 1,"periodsPerWeek": 6}
+	]
+  }
+}
