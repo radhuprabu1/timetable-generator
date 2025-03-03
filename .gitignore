@@ -1,0 +1,33 @@
+# Ignore IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Ignore compiled Java files
+*.class
+
+# Ignore build artifacts
+/target/
+/out/
+/bin/
+
+# Ignore dependencies (if using Maven or Gradle)
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+/.mvn/
+/.gradle/
+
+# Ignore temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Ignore sensitive config files
+application.properties
+application.yml
+.env
