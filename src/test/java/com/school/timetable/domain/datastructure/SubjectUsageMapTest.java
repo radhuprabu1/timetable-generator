@@ -1,13 +1,13 @@
 package com.school.timetable.domain.datastructure;
 
-import com.school.timetable.domain.datastructure.SubjectUsageMap;
-import com.school.timetable.domain.model.output.SubjectUsage.ClassPeriodCount;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import java.util.List;
+import com.school.timetable.domain.model.output.SubjectUsage.ClassPeriodCount;
 
 public class SubjectUsageMapTest {
 

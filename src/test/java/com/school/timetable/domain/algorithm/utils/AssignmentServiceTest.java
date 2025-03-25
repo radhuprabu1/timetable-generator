@@ -32,7 +32,7 @@ public class AssignmentServiceTest {
 	@Test
 	public void testAssignmentServices() throws IOException {
 		JsonInputParser parser = new JsonInputParser();
-		TimetableInput input = parser.parseInput("FullTimeTable.json");
+		TimetableInput input = parser.parseInput("testdata/FullTimeTable.json");
 
 		// Initialize the datastructures
 		TeacherAvailabilityMap availabilityMap = new TeacherAvailabilityMap();

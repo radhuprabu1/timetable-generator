@@ -40,7 +40,7 @@ public class VariableSelectorTest {
     public void setUp() throws Exception {
         // Parse the JSON file into TimetableInput
         ObjectMapper objectMapper = new ObjectMapper();
-        File inputFile = new File("src/main/resources/ForbiddenPeriodsScenario.json"); // Replace with actual path
+        File inputFile = new File("src/test/resources/testdata/ForbiddenPeriodsScenario.json"); // Replace with actual path
         TimetableInput timetableInput = objectMapper.readValue(inputFile, TimetableInput.class);
 
         // Initialize data structures
