@@ -3,6 +3,7 @@ package com.school.timetable.domain.model.output;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonSetter;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -28,13 +29,10 @@ public class SubjectUsage {
 	 */
 	private List<ClassPeriodCount> classesTaughtIn;
 
-	/*
-	 * Commented out method (Not in use)
-    public SubjectUsage(String subjectName, List<ClassPeriodCount> classesTaughtIn) {
-        this.subjectName = subjectName;
-        this.classesTaughtIn = classesTaughtIn;
-    }
-	 */
+	@JsonSetter("subject")
+	public void setSubjectName(String subjectName) {
+		this.subjectName = (subjectName != null) ? subjectName.toLowerCase() : null;
+	}
 
 	/**
 	 * Represents the count of periods a subject is taught in a specific class.
@@ -51,6 +49,15 @@ public class SubjectUsage {
 		 */
 		private int totalPeriods;
 
+		// Overriding setter methods to store values in lowercase
+	    public void setClassGrade(String classGrade) {
+	        this.classGrade = (classGrade != null) ? classGrade.toLowerCase() : null;
+	    }
+
+	    public void setSection(String section) {
+	        this.section = (section != null) ? section.toLowerCase() : null;
+	    }
+	    
 		@Override
 		public String toString() {
 			return "ClassPeriodCount(classGrade=" + classGrade +

@@ -1,0 +1,125 @@
+{
+  "schoolConfiguration": {
+    "totalPeriodsPerDay": 8
+  },
+  "teachers": [
+    {
+      "teacherName": "RV",
+      "subjects": ["Mathematics", "Library"],
+      "classes": [
+        {"class": "6", "section": "A","subject": "Mathematics"},
+        {"class": "6", "section": "B","subject": "Mathematics"},
+        {"class": "6", "section": "C","subject": "Mathematics"},
+        {"class": "7", "section": "C","subject": "Mathematics"},
+        {"class": "6", "section": "A","subject": "Library"}
+      ],
+      "forbiddenPeriods": {},
+      "availOnly": {},
+      "maxConsecutivePeriods": 2,
+      "minPeriodsPerDay": 6,
+      "periodsPerWeek": 28,
+      "classTeacherOf": {"class": "6","section": "A","subject": "Mathematics"}
+    },
+    {
+      "teacherName": "TA",
+      "subjects": ["Social", "Library"],
+      "classes": [
+        {"class": "6", "section": "B","subject": "Social"},
+        {"class": "7", "section": "C","subject": "Social"},
+        {"class": "6", "section": "B","subject": "Library"}
+      ],
+      "forbiddenPeriods": {},
+      "availOnly": {},
+      "maxConsecutivePeriods": 2,
+      "minPeriodsPerDay": 6,
+      "periodsPerWeek": 28,
+      "classTeacherOf": {"class": "6", "section": "B","subject": "Social"}
+    },
+  {
+      "teacherName": "TCR",
+      "subjects": ["Tamil", "Library"],
+      "classes": [
+        {"class": "6", "section": "C","subject": "Tamil"},
+        {"class": "6", "section": "C","subject": "Library"},
+        {"class": "6", "section": "A","subject": "Tamil"},
+        {"class": "6", "section": "B","subject": "Tamil"},
+        {"class": "7", "section": "D","subject": "Tamil"}
+      ],
+      "forbiddenPeriods": {},
+      "availOnly": {},
+      "maxConsecutivePeriods": 2,
+      "minPeriodsPerDay": 6,
+      "periodsPerWeek": 28,
+      "classTeacherOf": {"class": "6", "section": "C","subject": "Tamil"}
+    },
+    {
+      "teacherName": "AKK",
+      "subjects": ["Maths", "English", "Library"],
+      "classes": [
+        {"class": "6", "section": "D","subject": "Maths"},
+        {"class": "7", "section": "A","subject": "Maths"},
+        {"class": "7", "section": "D","subject": "Maths"},
+        {"class": "6", "section": "D","subject": "English"},
+        {"class": "6", "section": "D","subject": "Library"}
+      ],
+      "forbiddenPeriods": {},
+      "availOnly": {},
+      "maxConsecutivePeriods": 2,
+      "minPeriodsPerDay": 6,
+      "periodsPerWeek": 28,
+      "classTeacherOf": {"class": "6", "section": "D","subject": "Maths"}
+    },
+    {
+      "teacherName": "MS",
+      "subjects": ["Tamil", "Library"],
+      "classes": [
+        {"class": "6", "section": "E","subject": "Tamil"},
+        {"class": "6", "section": "D","subject": "Tamil"},
+        {"class": "7", "section": "E","subject": "Tamil"},
+        {"class": "7", "section": "F","subject": "Tamil"},
+        {"class": "6", "section": "E","subject": "Library"}
+      ],
+      "forbiddenPeriods": {},
+      "availOnly": {},
+      "maxConsecutivePeriods": 2,
+      "minPeriodsPerDay": 6,
+      "periodsPerWeek": 28,
+      "classTeacherOf": {"class": "6", "section": "E","subject": "Tamil"}
+    },
+    {
+      "teacherName": "TCR",
+      "subjects": ["Tamil", "Library"],
+      "classes": [
+        {"class": "6", "section": "C","subject": "Tamil"},
+        {"class": "6", "section": "C","subject": "Library"},
+        {"class": "6", "section": "A","subject": "Tamil"},
+        {"class": "6", "section": "B","subject": "Tamil"},
+        {"class": "7", "section": "D","subject": "Tamil"}
+      ],
+      "forbiddenPeriods": {},
+      "availOnly": {},
+      "maxConsecutivePeriods": 2,
+      "minPeriodsPerDay": 6,
+      "periodsPerWeek": 28,
+      "classTeacherOf": {"class": "6", "section": "C","subject": "Tamil"}
+    }
+    ],
+  "subjectDetails": {
+    "Mathematics": [
+      {
+        "class": "10",
+        "section": "A",
+        "minPeriodsPerDay": 1,
+        "periodsPerWeek": 5
+      }
+    ],
+    "Physics": [
+      {
+        "class": "11",
+        "section": "B",
+        "minPeriodsPerDay": 1,
+        "periodsPerWeek": 6
+      }
+    ]
+  }
+}

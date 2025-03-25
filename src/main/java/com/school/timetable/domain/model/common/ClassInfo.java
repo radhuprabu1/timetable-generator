@@ -32,6 +32,19 @@ public class ClassInfo {
 	private String subject;
 
 
+	// Overriding setter methods to store values in lower case
+    public void setClassGrade(String classGrade) {
+        this.classGrade = (classGrade != null) ? classGrade.toLowerCase() : null;
+    }
+
+    public void setSection(String section) {
+        this.section = (section != null) ? section.toLowerCase() : null;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = (subject != null) ? subject.toLowerCase() : null;
+    }
+
 	@Override
 	public String toString() {
 		return "ClassInfo(classGrade=" + classGrade +

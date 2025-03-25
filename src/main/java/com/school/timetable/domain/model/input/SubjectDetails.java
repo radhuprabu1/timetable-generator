@@ -32,7 +32,7 @@ public class SubjectDetails {
 
 	/**
 	 * The name of the subject. 
-	 * This field won't be serialized/deserialized directly from JSON
+	 * This field won't be serialised/de-serialised directly from JSON
 	 */
 	@JsonIgnore
 	private String subject;
@@ -47,6 +47,15 @@ public class SubjectDetails {
 	 */
 	private int periodsPerWeek;
 
+	// Overriding setter methods to store values in lowercase
+	public void setClassGrade(String classGrade) {
+		this.classGrade = (classGrade != null) ? classGrade.toLowerCase() : null;
+	}
+
+	public void setSection(String section) {
+		this.section = (section != null) ? section.toLowerCase() : null;
+	}
+
 	/**
 	 * Sets the subject name dynamically during deserialization.
 	 * 
@@ -54,7 +63,7 @@ public class SubjectDetails {
 	 */
 	@JsonSetter("subject")
 	public void setSubject(String subject) {
-		this.subject = subject;
+		this.subject = (subject != null) ? subject.toLowerCase() : null;
 	}
 
 }

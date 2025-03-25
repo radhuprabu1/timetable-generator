@@ -31,7 +31,7 @@ public class TimetableInput {
 	private List<Teacher> teachers;
 
 	/**
-	 * The mapping of subjects to their respective details, deserialized using a custom deserializer.
+	 * The mapping of subjects to their respective details, de-serialized using a custom deserializer.
 	 */
 	@JsonDeserialize(using = SubjectDetailsDeserializer.class)
 	private Map<String, List<SubjectDetails>> subjectDetails;

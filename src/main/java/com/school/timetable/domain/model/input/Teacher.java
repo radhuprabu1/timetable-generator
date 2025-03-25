@@ -2,6 +2,7 @@ package com.school.timetable.domain.model.input;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -69,7 +70,17 @@ public class Teacher {
 	 * The class for which the teacher serves as the class teacher.
 	 */
 	private ClassInfo classTeacherOf;
+	
+	// Overriding setter methods to store values in lowercase
+    public void setName(String name) {
+        this.name = (name != null) ? name.toLowerCase() : null;
+    }
 
+    public void setSubjects(List<String> subjects) {
+        this.subjects = (subjects != null) 
+            ? subjects.stream().map(s -> s.toLowerCase()).collect(Collectors.toList()) 
+            : null;
+    }
 	//	@Override
 	//	public String toString() {
 	//		return "Teacher(name=" + name +
