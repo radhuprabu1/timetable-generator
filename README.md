@@ -1,4 +1,4 @@
-# New Timetable Generator  
+# Timetable Generator  
 
 ## Overview  
 This program generates school timetables based on given inputs such as teacher availability, subject details, and school configuration.  
